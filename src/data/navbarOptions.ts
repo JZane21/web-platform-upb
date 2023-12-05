@@ -1,15 +1,40 @@
 "use client";
 export const NavbarOptions = [
   {
-    ref: "/tema-uno",
-    text: "Tema Uno",
+    ref: "/fase-inicio",
+    text: "Fase Inicio",
   },
   {
-    ref: "/tema-dos",
-    text: "Tema Dos",
+    ref: "/fase-planificacion",
+    text: "Fase Planificacion",
   },
   {
-    ref: "/tema-tres",
-    text: "Tema Tres",
+    ref: "/fase-desarrollo",
+    text: "Fase Desarrollo",
+  },
+  {
+    ref: "/fase-control",
+    text: "Fase Control",
+  },
+  {
+    ref: "/fase-cierre",
+    text: "Fase Cierre",
+  },
+  //
+  {
+    ref: "/objetivos",
+    text: "Objetivos",
+  },
+  {
+    ref: "/requisitos",
+    text: "Requisitos",
+  },
+  {
+    ref: "/estimacion-costos",
+    text: "Estimacion Costos",
+  },
+  {
+    ref: "/sobre-nosotros",
+    text: "Sobre Nosotros",
   },
 ];
