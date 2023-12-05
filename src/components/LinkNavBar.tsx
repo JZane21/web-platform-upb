@@ -22,9 +22,8 @@ const LinkNavBar = ({ refLink, text }: Props) => {
     <li>
       <label
         onClick={changePage}
-        className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent
-        md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent
-        cursor-pointer"
+        className="block py-2 px-3 text-white hover:bg-purple-400
+        active:bg-purple-600 active:text-blue-500 rounded cursor-pointer"
         aria-current="page"
       >
         {text}
