@@ -9,198 +9,162 @@ const FasePlanificacion = () => {
         <h2 className="text-xl font-semibold mb-4">
           Planificación del Proyecto
         </h2>
+
+         {/* Fase de Inicio */}
         <div className="overflow-y-auto max-h-96 p-4 border border-gray-300 rounded-lg mb-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="border border-gray-300 p-4 rounded-lg">
-              <h2 className="text-lg font-semibold mb-2">Fase de Inicio</h2>
+              <h2 className="text-lg font-semibold mb-2">Fase de Inicio (Duración: 1 Mes)</h2>
               <p>
-                <strong>Definición de Objetivos y Propósito (1-2 días)</strong>
+                <strong>Definir la Problemática y Objetivos del Sistema Web</strong>
+                <br />
+                Descripción: Analizar y documentar la problemática a resolver y los objetivos del sistema web.
+                <br />
+                Responsable: Ignacio 
+                <br />
+                Tiempo: 1 semana
+              </p>
+              <p>
+                <strong>Reuniones Iniciales con el Cliente</strong>
+                <br />
+                Descripción: Realizar reuniones para entender las necesidades y expectativas del cliente.
+                <br />
+                Responsable: Emanuel e Ignacio
+                <br />
+                Tiempo: 1 semana
+              </p>
+              <p>
+                <strong>Desarrollo del Documento de Inicio del Proyecto</strong>
+                <br />
+                Descripción: Elaborar un documento que establezca los objetivos, alcance y requisitos iniciales del proyecto.
                 <br />
                 Responsable: Ignacio
                 <br />
-                Descripción: Establecer los objetivos y propósito del sitio web.
+                Tiempo: 1 semana
               </p>
               <p>
-                <strong>Identificación de Partes Interesadas (1 día)</strong>
+                <strong>Evaluación de Viabilidad y Riesgos Iniciales</strong>
+                <br />
+                Descripción: Analizar la viabilidad técnica y financiera, identificando posibles riesgos.
                 <br />
                 Responsable: Emanuel
                 <br />
-                Descripción: Identificar y listar a todas las partes
-                interesadas.
-              </p>
-              <p>
-                <strong>Evaluación de Viabilidad (2-3 días)</strong>
-                <br />
-                Responsable: Ander
-                <br />
-                Descripción: Evaluar recursos y tecnologías disponibles.
-              </p>
-              <p>
-                <strong>Creación de Documento de Inicio (2 días)</strong>
-                <br />
-                Responsable: Ignacio
-                <br />
-                Descripción: Documentar objetivos, alcance y requisitos
-                iniciales.
+                Tiempo: 1 semana
               </p>
             </div>
 
-            <div className="border border-gray-300 p-4 rounded-lg">
-              <h2 className="text-lg font-semibold mb-2">
-                Fase de Planificación
-              </h2>
-              <p>
-                <strong>Definición Detallada del Alcance (3-4 días)</strong>
-                <br />
-                Responsable: José
-                <br />
-                Descripción: Detallar características, contenido y diseño.
-              </p>
-              <p>
-                <strong>Desarrollo del Plan de Proyecto (4-5 días)</strong>
-                <br />
-                Responsable: Emanuel
-                <br />
-                Descripción: Programación, asignación de tareas y presupuesto.
-              </p>
-              <p>
-                <strong>Diseño de Arquitectura de Información (3 días)</strong>
-                <br />
-                Responsable: Nata
-                <br />
-                Descripción: Diseñar estructura de contenido y navegación.
-              </p>
-              <p>
-                <strong>Plan de Gestión de Riesgos (2 días)</strong>
-                <br />
-                Responsable: Ander
-                <br />
-                Descripción: Identificar y planificar la mitigación de riesgos.
-              </p>
-            </div>
+          {/* Fase de Planificación */}
+        <div className="border border-gray-300 p-4 rounded-lg">
+          <h2 className="text-lg font-semibold mb-2">Fase de Planificación (Duración: 2 Meses)</h2>
+          <p><strong>Desarrollo del Plan de Proyecto</strong><br />
+          Descripción: Crear un plan detallado del proyecto, incluyendo cronograma, recursos y presupuesto.<br />
+          Responsable: Emanuel<br />
+          Tiempo: 3 semanas</p>
+          
+          <p><strong>Asignación de Recursos y Tareas</strong><br />
+          Descripción: Distribuir las tareas y asignar recursos a los miembros del equipo.<br />
+          Responsable: Emanuel<br />
+          Tiempo: 1 semana</p>
+          
+          <p><strong>Evaluación y Gestión de Riesgos</strong><br />
+          Descripción: Identificar riesgos potenciales y desarrollar estrategias de mitigación.<br />
+          Responsable: Emanuel<br />
+          Tiempo: 2 semanas</p>
+        </div>
 
-            <div className="border border-gray-300 p-4 rounded-lg">
-              <h2 className="text-lg font-semibold mb-2">Fase de Diseño</h2>
-              <p>
-                <strong>Creación de Prototipos y Bocetos (5-7 días)</strong>
-                <br />
-                Responsable: José
-                <br />
-                Descripción: Diseñar la interfaz visual y páginas.
-              </p>
-              <p>
-                <strong>Selección de Tecnologías (2 días)</strong>
-                <br />
-                Responsable: Ander
-                <br />
-                Descripción: Elegir herramientas y tecnologías para desarrollo.
-              </p>
-              <p>
-                <strong>Plan de Pruebas de Usabilidad (2 días)</strong>
-                <br />
-                Responsable: Ambar
-                <br />
-                Descripción: Desarrollar un plan para pruebas de usuario.
-              </p>
-            </div>
+            {/* Fase de Diseño */}
+        <div className="border border-gray-300 p-4 rounded-lg">
+          <h2 className="text-lg font-semibold mb-2">Fase de Diseño (Duración: 3 Meses)</h2>
+          <p><strong>Análisis de Requerimientos y Diseño Arquitectónico (UML y C4)</strong><br />
+          Descripción: Definir requerimientos funcionales y no funcionales, y desarrollar la arquitectura del sistema.<br />
+          Responsable: José y Nata<br />
+          Tiempo: 1 mes</p>
+          
+          <p><strong>Creación de Wireframes y Prototipos</strong><br />
+          Descripción: Diseñar wireframes y prototipos para la interfaz de usuario del sistema web.<br />
+          Responsable: Nata<br />
+          Tiempo: 1 mes</p>
+          
+          <p><strong>Revisión y Aprobación del Diseño con el Cliente</strong><br />
+          Descripción: Presentar los diseños al cliente para su revisión y aprobación.<br />
+          Responsable: Ignacio y Emanuel<br />
+          Tiempo: 1 mes</p>
+        </div>
 
-            <div className="border border-gray-300 p-4 rounded-lg">
-              <h2 className="text-lg font-semibold mb-2">Fase de Desarrollo</h2>
-              <p>
-                <strong>Programación del Código Fuente (10-15 días)</strong>
-                <br />
-                Responsables: José, Nata, Ignacio
-                <br />
-                Descripción: Desarrollar el código del sitio.
-              </p>
-              <p>
-                <strong>Creación de Bases de Datos (7-10 días)</strong>
-                <br />
-                Responsable: Ander
-                <br />
-                Descripción: Desarrollar funcionalidades y bases de datos.
-              </p>
-              <p>
-                <strong>Integración de Contenido (5 días)</strong>
-                <br />
-                Responsable: Nata
-                <br />
-                Descripción: Integrar contenido y recursos multimedia.
-              </p>
-              <p>
-                <strong>Pruebas de Desarrollo (3-5 días)</strong>
-                <br />
-                Responsable: Ambar
-                <br />
-                Descripción: Asegurar el correcto funcionamiento del sitio.
-              </p>
-            </div>
+            {/* Fase de Desarrollo */}
+        <div className="border border-gray-300 p-4 rounded-lg">
+          <h2 className="text-lg font-semibold mb-2">Fase de Desarrollo (Duración: 5 Meses)</h2>
+          <p><strong>Desarrollo del Frontend y Backend</strong><br />
+          Descripción: Codificar las funcionalidades del sistema según los diseños y requerimientos.<br />
+          Responsable: José, Ander y Nata<br />
+          Tiempo: 2 meses</p>
+          
+          <p><strong>Implementación de la Lógica de Negocio</strong><br />
+          Descripción: Desarrollar la lógica del negocio y las reglas en el backend.<br />
+          Responsable: Ander y Ignacio<br />
+          Tiempo: 2 meses</p>
+          
+          <p><strong>Integración de Componentes y Sistemas</strong><br />
+          Descripción: Integrar los diferentes componentes y sistemas del proyecto.<br />
+          Responsable: Ander<br />
+          Tiempo: 1 mes</p>
+        </div>
 
-            <div className="border border-gray-300 p-4 rounded-lg">
-              <h2 className="text-lg font-semibold mb-2">
-                Fase de Pruebas y Control de Calidad
-              </h2>
-              <p>
-                <strong>Pruebas Funcionales (5-7 días)</strong>
-                <br />
-                Responsable: Ambar
-                <br />
-                Descripción: Verificar características y enlaces.
-              </p>
-              <p>
-                <strong>Pruebas de Compatibilidad (3-4 días)</strong>
-                <br />
-                Responsable: Ambar
-                <br />
-                Descripción: Asegurar funcionamiento en diferentes plataformas.
-              </p>
-              <p>
-                <strong>Pruebas de Rendimiento (2-3 días)</strong>
-                <br />
-                Responsable: Ander
-                <br />
-                Descripción: Optimizar tiempos de carga.
-              </p>
-            </div>
+            {/* Fase de Pruebas y Control de Calidad */}
+        <div className="border border-gray-300 p-4 rounded-lg">
+          <h2 className="text-lg font-semibold mb-2">Fase de Pruebas y Control de Calidad (Duración: 3 Meses)</h2>
+          <p><strong>Pruebas Unitarias y de Integración</strong><br />
+          Descripción: Realizar pruebas para verificar cada componente y su integración con otros.<br />
+          Responsable: Ambar<br />
+          Tiempo: 1 mes</p>
+          
+          <p><strong>Pruebas de Rendimiento y Seguridad</strong><br />
+          Descripción: Evaluar el rendimiento y la seguridad del sistema.<br />
+          Responsable: Ambar<br />
+          Tiempo: 1 mes</p>
+          
+          <p><strong>Corrección de Errores y Ajustes</strong><br />
+          Descripción: Identificar y corregir errores basados en los resultados de las pruebas.<br />
+          Responsable: José y Nata<br />
+          Tiempo: 1 mes</p>
+        </div>
 
-            <div className="border border-gray-300 p-4 rounded-lg">
-              <h2 className="text-lg font-semibold mb-2">
-                Fase de Implementación
-              </h2>
-              <p>
-                <strong>Lanzamiento del Sitio (2 días)</strong>
-                <br />
-                Responsable: Ander
-                <br />
-                Descripción: Puesta en marcha en el entorno de producción.
-              </p>
-              <p>
-                <strong>Configuración de Servidores (2 días)</strong>
-                <br />
-                Responsable: Ander
-                <br />
-                Descripción: Preparar alojamiento y servidores.
-              </p>
-            </div>
+            {/* Fase de Implementación */}
+        <div className="border border-gray-300 p-4 rounded-lg">
+          <h2 className="text-lg font-semibold mb-2">Fase de Implementación (Duración: 1 Mes)</h2>
+          <p><strong>Despliegue en Producción</strong><br />
+          Descripción: Desplegar el sistema en un entorno de producción.<br />
+          Responsable: Ander<br />
+          Tiempo: 2 semanas</p>
+          
+          <p><strong>Configuración de Servidores y Bases de Datos</strong><br />
+          Descripción: Configurar y optimizar servidores y bases de datos para el entorno de producción.<br />
+          Responsable: Ander<br />
+          Tiempo: 2 semanas</p>
+        </div>
 
-            <div className="border border-gray-300 p-4 rounded-lg">
-              <h2 className="text-lg font-semibold mb-2">Fase de Cierre</h2>
-              <p>
-                <strong>Entrega y Documentación Final (3-4 días)</strong>
-                <br />
-                Responsable: Emanuel
-                <br />
-                Descripción: Documentar el proyecto y entregarlo al cliente.
-              </p>
-              <p>
-                <strong>Revisión de Lecciones Aprendidas (1 día)</strong>
-                <br />
-                Responsable: Emanuel
-                <br />
-                Descripción: Analizar y documentar aprendizajes para futuros
-                proyectos.
-              </p>
-            </div>
+            {/* Fase de Evaluación y Retroalimentación */}
+        <div className="border border-gray-300 p-4 rounded-lg">
+          <h2 className="text-lg font-semibold mb-2">Fase de Evaluación y Retroalimentación (Duración: 2 Semanas)</h2>
+          <p><strong>Evaluación del Cliente y Usuarios Finales</strong><br />
+          Descripción: Recoger y analizar comentarios y sugerencias de los usuarios reales.<br />
+          Responsable: Ignacio<br />
+          Tiempo: 2 semanas</p>
+        </div>
+
+        {/* Fase de Mantenimiento y Actualización */}
+        <div className="border border-gray-300 p-4 rounded-lg">
+          <h2 className="text-lg font-semibold mb-2">Fase de Mantenimiento y Actualización (Duración: 4 Meses)</h2>
+          <p><strong>Soporte y Resolución de Problemas Técnicos</strong><br />
+          Descripción: Proporcionar asistencia técnica continua y resolver problemas emergentes.<br />
+          Responsable: José<br />
+          Tiempo: 2 meses</p>
+          <p><strong>Actualizaciones y Mejoras</strong><br />
+          Descripción: Implementar actualizaciones regulares, mejoras basadas en la retroalimentación del usuario y parches de seguridad.<br />
+          Responsable: Ander y Ignacio<br />
+          Tiempo: 2 meses</p>
+        </div>
+
           </div>
         </div>
 
