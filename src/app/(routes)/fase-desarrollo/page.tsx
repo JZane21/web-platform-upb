@@ -40,8 +40,9 @@ const FaseDesarrolloDesign = () => {
 
   return (
     <ContentPage>
-      <div className="bg-slate-100 w-full min-h-screen p-10 flex flex-col">
-        <h1 className="text-3xl font-bold">Fase de Diseño y Desarrollo</h1>
+      <div className="w-full min-h-screen p-4 flex flex-col">
+      <h1 className=" text-4xl font-semibold mb-4 p-6">
+Fase de Diseño y Desarrollo</h1>
 
         <Requirements />
 
