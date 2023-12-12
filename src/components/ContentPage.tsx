@@ -5,7 +5,7 @@ interface Props {
 }
 
 const ContentPage = ({ children }: Props) => {
-  return <section className="w-full h-max bg-slate-100">{children}</section>;
+  return <section className="w-full">{children}</section>;
 };
 
 export default ContentPage;

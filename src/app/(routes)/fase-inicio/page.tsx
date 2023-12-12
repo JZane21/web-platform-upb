@@ -5,10 +5,9 @@ import ContentPage from "../../../components/ContentPage";
 const FaseInicio = () => {
   return (
     <ContentPage>
-      <div className="overflow-y-auto h-screen p-4">
+      <div className="h-full overflow-y-auto p-4">
         {/* Sección de Fase de Inicio */}
-        <h2 className="text-xl font-semibold mb-4">Fase de Inicio</h2>
-        <div className="overflow-y-auto max-h-96 p-4 border border-gray-300 rounded-lg mb-16">
+        <h2 className="text-4xl font-semibold mb-4">Fase de Inicio</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Análisis de la problemática */}
             <div className="border border-gray-300 p-4 rounded-lg">
@@ -94,7 +93,7 @@ const FaseInicio = () => {
               </a>
             </div>
           </div>
-        </div>
+
       </div>
     </ContentPage>
   );

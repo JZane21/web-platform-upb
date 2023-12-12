@@ -11,7 +11,11 @@ interface Props {
 const layout = ({ children }: Props) => {
   return (
     <StoreProvider>
-      <PrincipalLayoutStructure>{children}</PrincipalLayoutStructure>
+      <PrincipalLayoutStructure>
+        <div className="h-full">
+        {children}
+        </div>
+        </PrincipalLayoutStructure>
     </StoreProvider>
   );
 };
