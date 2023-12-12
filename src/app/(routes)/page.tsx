@@ -16,7 +16,7 @@ const InitPage = () => {
             <li>José Carrasco</li>
             <li>Ander Cayllan</li>
             <li>Ignacio Lizarazu</li>
-            <li>Emmanuel Lozano</li>
+            <li>Emanuel Lozano</li>
             <li>Ambar Rojas</li>
           </ul>
         </div>

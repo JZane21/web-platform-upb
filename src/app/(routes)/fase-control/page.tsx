@@ -8,10 +8,10 @@ import servidor from "../../../assets/servidor.png";
 const FaseControl = () => {
   return (
     <ContentPage>
-      <div className="bg-slate-100 p-10 overflow-y-auto">
-        <h1 className="text-3xl font-bold mb-4">
+      <div className="p-4 overflow-y-auto">
+        <h2 className=" text-4xl font-semibold mb-4 p-6">
           Fase de Control de Calidad e Implementación
-        </h1>
+        </h2>
         <div className="flex w-full justify-center items-center">
           <Image
             src={testImage}
@@ -19,6 +19,7 @@ const FaseControl = () => {
             className="my-4 rounded-xl shadow-xl w-[500px]"
           />
         </div>
+        <div className="px-6">
         <div className="container mx-auto">
           <section>
             <h2 className="text-2xl font-semibold my-8">Introducción</h2>
@@ -287,7 +288,8 @@ const FaseControl = () => {
 
         <section className="mt-8">
           <p className="text-gray-700">
-            Se sugiere la siguiente oferta tentativa: Ambiente Básico - (Website Hosting) $100 a $200 USD Mensuales
+            Se sugiere la siguiente oferta tentativa: Ambiente Básico - (Website
+            Hosting) $100 a $200 USD Mensuales
           </p>
         </section>
 
@@ -304,6 +306,7 @@ const FaseControl = () => {
         >
           Sobre la Fase de Control de Calidad e Implementación
         </a>
+        </div>
       </div>
     </ContentPage>
   );

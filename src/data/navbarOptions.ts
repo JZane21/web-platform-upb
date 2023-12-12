@@ -6,7 +6,7 @@ export const NavbarOptions = [
   },
   {
     ref: "/fase-planificacion",
-    text: "Fase Planificacion",
+    text: "Fase Planificación",
   },
   {
     ref: "/fase-desarrollo",

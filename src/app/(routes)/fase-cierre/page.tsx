@@ -5,14 +5,18 @@ import styles from "./FaseCierre.module.css";
 const FaseCierre = () => {
   return (
     <ContentPage>
+      <div className="p-4 overflow-y-auto">
+      <h2 className=" text-4xl font-semibold mb-4 p-6">
+          Fase de Cierre
+        </h2>
       <div className="p-4 grid grid-cols-3 gap-4">
         {/* Primer Contrato */}
-        <div className="border border-gray-300 p-4 rounded-lg">
+        <div className="border border-gray-300 shadow-md bg-white p-4 rounded-lg">
           <h2 className="text-lg font-semibold mb-2">
             Manual de Uso del Sitio Web
           </h2>
           <div className={styles.contratoTextoScroll}>
-            <div>Acerca del Manual:</div>
+            <strong>Acerca del Manual:</strong>
             <div>
               Este manual ofrece una guía paso a paso, tanto gráfica como
               textual, para utilizar el sitio web eficientemente en dispositivos
@@ -21,22 +25,22 @@ const FaseCierre = () => {
               información.
             </div>
             <div>
-              Menú del Sitio: El sitio web dispone de un menú intuitivo que
+              <strong>Menú del Sitio:</strong> El sitio web dispone de un menú intuitivo que
               facilita el acceso a las distintas secciones disponibles.
             </div>
             <div>
-              Uso del Sitio Web en Escritorio:
+              <strong>Uso del Sitio Web en Escritorio:</strong>
               <ol>
                 <li>
-                  1.Eventos: Descripción completa de eventos, con énfasis en sus
+                  <strong>1.Eventos:</strong> Descripción completa de eventos, con énfasis en sus
                   características principales y acompañados de imágenes.
                 </li>
                 <li>
-                  2.Cultura: Información sobre talleres, actividades y
+                  <strong>2.Cultura:</strong> Información sobre talleres, actividades y
                   presentaciones culturales, incluyendo imágenes descriptivas.
                 </li>
                 <li>
-                  3.Noticias: Las noticias más relevantes para la comunidad
+                  <strong>3.Noticias:</strong>3.Noticias: Las noticias más relevantes para la comunidad
                   académica y el público general.
                 </li>
                 <li>
@@ -65,7 +69,7 @@ const FaseCierre = () => {
         </div>
 
         {/* Segundo Contrato */}
-        <div className="border border-gray-300 p-4 rounded-lg">
+        <div className="border border-gray-300 shadow-md bg-white p-4 rounded-lg">
           <h2 className="text-lg font-semibold mb-2">
             Análisis de Métricas de Rendimiento
           </h2>
@@ -118,8 +122,8 @@ const FaseCierre = () => {
         </div>
 
         {/* Tercer Contrato */}
-        <div className="border border-gray-300 p-4 rounded-lg">
-          <h2 className="text-lg font-semibold mb-2">CONTRATO DE CIERRE</h2>
+        <div className="border border-gray-300 shadow-md bg-white p-4 rounded-lg">
+          <h2 className="text-lg font-semibold mb-2">Contrato de Cierre</h2>
           <div className={styles.contratoTextoScroll}>
             <div>
               Entre: La Universidad Privada Boliviana (UPB), en adelante
@@ -237,7 +241,6 @@ const FaseCierre = () => {
               Por el Consultor: ___________________ Nombre: Cargo: Fecha:
             </div>
 
-            {/* Continúa con el resto del contenido del tercer contrato */}
           </div>
         </div>
       </div>
@@ -277,6 +280,7 @@ const FaseCierre = () => {
           </a>
         </li>
       </ul>
+      </div>
     </ContentPage>
   );
 };
