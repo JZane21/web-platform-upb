@@ -11,7 +11,9 @@ interface Props {
 const layout = ({ children }: Props) => {
   return (
     <StoreProvider>
-      <PrincipalLayoutStructure>{children}</PrincipalLayoutStructure>
+      <PrincipalLayoutStructure>
+        {children}
+        </PrincipalLayoutStructure>
     </StoreProvider>
   );
 };
