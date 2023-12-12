@@ -32,6 +32,10 @@ const MaterialList = () => {
       text: "Diagramas de clases",
     },
     {
+      link: "https://app.diagrams.net/#G1XHZR2mVarOpzuQDSGl9NWzMrzBcstjcP#%7B%22pageId%22%3A%22hlixAKjDROkvpIncMT9u%22%7D",
+      text: "Diagrama C4",
+    },
+    {
       link: "https://app.diagrams.net/#G1AYQdEYc8iS90XvC3Am3O_2snhcdkPuxb",
       text: "Casos de uso",
     },

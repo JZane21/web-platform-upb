@@ -10,7 +10,17 @@ const Diagrams = () => {
   }[] = [
     {
       title: "Diagramas de Secuencia",
-      images: ["diagramas-de-secuencia.png"],
+      images: [
+        "diagrama-secuencia-uno.png",
+        "diagrama-secuencia-dos.png",
+        "diagrama-secuencia-tres.png",
+        "diagrama-secuencia-cuatro.png",
+        "diagrama-secuencia-cinco.png",
+        "diagrama-secuencia-seis.png",
+        "diagrama-secuencia-siete.png",
+        "diagrama-secuencia-ocho.png",
+        "diagrama-secuencia-nueve.png",
+      ],
     },
     {
       title: "Diagramas de Actividades",
@@ -35,6 +45,13 @@ const Diagrams = () => {
     {
       title: "Diagramas de Paquetes",
       images: ["diagrama-de-paquetes.png"],
+    },
+    {
+      title: "Diagramas C4",
+      images: [
+        "diagrama-C4-uno.png",
+        "diagrama-C4-dos.png"
+      ],
     },
     {
       title: "Casos de uso",
