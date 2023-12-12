@@ -10,7 +10,7 @@ export const NavbarOptions = [
   },
   {
     ref: "/fase-desarrollo",
-    text: "Fase Desarrollo",
+    text: "Fase Desarrollo y Diseño",
   },
   {
     ref: "/fase-control",
