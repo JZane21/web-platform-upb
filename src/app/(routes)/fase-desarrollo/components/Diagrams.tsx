@@ -14,12 +14,6 @@ const Diagrams = () => {
         "diagrama-secuencia-uno.png",
         "diagrama-secuencia-dos.png",
         "diagrama-secuencia-tres.png",
-        "diagrama-secuencia-cuatro.png",
-        "diagrama-secuencia-cinco.png",
-        "diagrama-secuencia-seis.png",
-        "diagrama-secuencia-siete.png",
-        "diagrama-secuencia-ocho.png",
-        "diagrama-secuencia-nueve.png",
       ],
     },
     {
@@ -48,10 +42,7 @@ const Diagrams = () => {
     },
     {
       title: "Diagramas C4",
-      images: [
-        "diagrama-C4-uno.png",
-        "diagrama-C4-dos.png"
-      ],
+      images: ["diagrama-C4-uno.png", "diagrama-C4-dos.png"],
     },
     {
       title: "Casos de uso",

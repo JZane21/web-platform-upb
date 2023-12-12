@@ -7,6 +7,7 @@ import Requirements from "./components/Requirements";
 import Diagrams from "./components/Diagrams";
 import ScrumMethodology from "./components/ScrumMethodology";
 import MaterialList from "./components/MaterialList";
+import SystemLayers from "./components/SystemLayers";
 
 const FaseDesarrolloDesign = () => {
   const commonUserMobile: string[] = ["usuario-mobile.png"];
@@ -81,6 +82,8 @@ const FaseDesarrolloDesign = () => {
           listImagesDesktop={adminDesktop}
           listImagesMobile={adminMobile}
         />
+
+        <SystemLayers />
 
         <MaterialList />
       </div>

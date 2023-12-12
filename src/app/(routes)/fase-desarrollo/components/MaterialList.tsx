@@ -47,6 +47,10 @@ const MaterialList = () => {
       link: "https://www.figma.com/file/54mFTHiuT3MLKMPbtNIfpU/Mockups---Black%2FWhite?type=design&node-id=0-1&mode=design&t=XooEfFY7gFKOzB9I-0",
       text: "Mockups",
     },
+    {
+      link: "https://docs.google.com/document/d/1mIeEr6E6-9Z6CIlb0XRJfVQb9bUWGASalwWGmYiz5PQ/edit?usp=sharing",
+      text: "Capas del sistema y herramientas de desarrollo",
+    },
   ];
 
   return (
