@@ -11,7 +11,7 @@ const FasePlanificacion = () => {
         </h2>
 
          {/* Fase de Inicio */}
-        <div className="overflow-y-auto max-h-96 p-4 border border-gray-300 shadow-md bg-white p-4 rounded-lg mb-6 mx-6">
+        <div className="overflow-y-auto max-h-96  border border-gray-300 shadow-md bg-white p-4 rounded-lg mb-6 mx-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-6">
             <div className="border border-gray-300 shadow-md bg-white p-4 rounded-lg">
               <h2 className="text-lg font-bold mb-2">Fase de Inicio (Duración: 1 Mes)</h2>
@@ -168,10 +168,10 @@ const FasePlanificacion = () => {
           </div>
         </div>
 
-        <h2 className="text-xl font-semibold mb-4">
+        <h2 className="text-xl font-semibold mb-4 px-6">
           Planificación del Producto
         </h2>
-        <div className="overflow-y-auto max-h-96 p-4 border border border-gray-300 shadow-md bg-white p-4 rounded-lg mx-6 mb-6">
+        <div className="overflow-y-auto max-h-96 border border-gray-300 shadow-md bg-white p-4 rounded-lg mx-6 mb-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 
             {/* Sprint 1: Configuración y Planificación */}
@@ -407,7 +407,7 @@ const FasePlanificacion = () => {
           </div>
         </div>
 
-        <h2 className="text-xl font-semibold mb-4">
+        <h2 className="text-xl font-semibold mb-4 mx-6">
           Plan de Gestión de Riesgos
         </h2>
         <div className="overflow-y-auto max-h-96 p-4 border border-gray-300 shadow-md bg-white p-4 rounded-lg mb-6 mx-6">
@@ -447,8 +447,8 @@ const FasePlanificacion = () => {
           </div>
         </div>
 
-        <h2 className="text-xl font-semibold mb-4">Herramientas</h2>
-        <div className="overflow-y-auto max-h-96 p-4 border border-gray-300 shadow-md bg-white p-4 rounded-lg mx-6 mb-16">
+        <h2 className="text-xl font-semibold mb-4 mx-6">Herramientas</h2>
+        <div className="overflow-y-auto max-h-96 border border-gray-300 shadow-md bg-white p-4 rounded-lg mx-6 mb-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="border border-gray-300 shadow-md bg-white p-4 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">Trello</h3>
