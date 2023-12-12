@@ -6,6 +6,9 @@ import testImage from "../../../assets/test_image.jpg";
 import servidor from "../../../assets/servidor.png";
 
 const FaseControl = () => {
+  const urlImage: string =
+    "https://www.clickittech.com.mx/wp-content/uploads/2017/12/diagramas-blog-esp-05.jpg";
+
   return (
     <ContentPage>
       <div className="bg-slate-100 p-10 overflow-y-auto">
@@ -25,11 +28,12 @@ const FaseControl = () => {
             <section>
               <p>
                 En esta sección, se analizará a detalle cómo se llevará a cabo
-                el control de calidad de la aplicación "Sistema de Comunicación
-                e Integración de nuevos Empleados en la UPB" desarrollada con
-                Next.js en cada Sprint. Este proceso se realizará durante el
-                tiempo establecido para trabajar con la Universidad Privada
-                Boliviana (UPB), según lo especificado en el contrato.
+                el control de calidad de la aplicación &quot;Sistema de
+                Comunicación e Integración de nuevos Empleados en la UPB&quot;
+                desarrollada con Next.js en cada Sprint. Este proceso se
+                realizará durante el tiempo establecido para trabajar con la
+                Universidad Privada Boliviana (UPB), según lo especificado en el
+                contrato.
               </p>
             </section>
           </section>
@@ -287,13 +291,19 @@ const FaseControl = () => {
 
         <section className="mt-8">
           <p className="text-gray-700">
-            Se sugiere la siguiente oferta tentativa: Ambiente Básico - (Website Hosting) $100 a $200 USD Mensuales
+            Se sugiere la siguiente oferta tentativa: Ambiente Básico - (Website
+            Hosting) $100 a $200 USD Mensuales
           </p>
         </section>
 
-        <img
-          src="https://www.clickittech.com.mx/wp-content/uploads/2017/12/diagramas-blog-esp-05.jpg"
+        <Image
+          loader={() => urlImage}
+          unoptimized={true}
+          src={urlImage}
           className="my-4 mx-auto h-[50%] w-[50%]"
+          alt={"jest"}
+          width={300}
+          height={300}
         />
         <h2 className="text-xl font-bold mt-4">Referencias</h2>
         <a
