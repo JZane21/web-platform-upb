@@ -1,0 +1,6 @@
+.contratoTextoScroll {
+    max-height: 300px; /* Ajusta según tus necesidades */
+    overflow-y: auto;
+    line-height: 1.6;
+  }
+  
