@@ -12,9 +12,7 @@ const layout = ({ children }: Props) => {
   return (
     <StoreProvider>
       <PrincipalLayoutStructure>
-        <div className="h-full">
         {children}
-        </div>
         </PrincipalLayoutStructure>
     </StoreProvider>
   );
