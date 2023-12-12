@@ -20,9 +20,5 @@ export const NavbarOptions = [
     ref: "/fase-cierre",
     text: "Fase Cierre",
   },
-  //
-  {
-    ref: "/sobre-nosotros",
-    text: "Sobre Nosotros",
-  },
+
 ];
