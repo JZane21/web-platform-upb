@@ -6,12 +6,15 @@ import testImage from "../../../assets/test_image.jpg";
 import servidor from "../../../assets/servidor.png";
 
 const FaseControl = () => {
+  const urlImage: string =
+    "https://www.clickittech.com.mx/wp-content/uploads/2017/12/diagramas-blog-esp-05.jpg";
+
   return (
     <ContentPage>
-      <div className="bg-slate-100 p-10 overflow-y-auto">
-        <h1 className="text-3xl font-bold mb-4">
+      <div className="p-4 overflow-y-auto">
+        <h2 className=" text-4xl font-semibold mb-4 p-6">
           Fase de Control de Calidad e Implementación
-        </h1>
+        </h2>
         <div className="flex w-full justify-center items-center">
           <Image
             src={testImage}
@@ -19,17 +22,19 @@ const FaseControl = () => {
             className="my-4 rounded-xl shadow-xl w-[500px]"
           />
         </div>
+        <div className="px-6">
         <div className="container mx-auto">
           <section>
             <h2 className="text-2xl font-semibold my-8">Introducción</h2>
             <section>
               <p>
                 En esta sección, se analizará a detalle cómo se llevará a cabo
-                el control de calidad de la aplicación "Sistema de Comunicación
-                e Integración de nuevos Empleados en la UPB" desarrollada con
-                Next.js en cada Sprint. Este proceso se realizará durante el
-                tiempo establecido para trabajar con la Universidad Privada
-                Boliviana (UPB), según lo especificado en el contrato.
+                el control de calidad de la aplicación &quot;Sistema de
+                Comunicación e Integración de nuevos Empleados en la UPB&quot;
+                desarrollada con Next.js en cada Sprint. Este proceso se
+                realizará durante el tiempo establecido para trabajar con la
+                Universidad Privada Boliviana (UPB), según lo especificado en el
+                contrato.
               </p>
             </section>
           </section>
@@ -287,13 +292,19 @@ const FaseControl = () => {
 
         <section className="mt-8">
           <p className="text-gray-700">
-            Se sugiere la siguiente oferta tentativa: Ambiente Básico - (Website Hosting) $100 a $200 USD Mensuales
+            Se sugiere la siguiente oferta tentativa: Ambiente Básico - (Website
+            Hosting) $100 a $200 USD Mensuales
           </p>
         </section>
 
-        <img
-          src="https://www.clickittech.com.mx/wp-content/uploads/2017/12/diagramas-blog-esp-05.jpg"
+        <Image
+          loader={() => urlImage}
+          unoptimized={true}
+          src={urlImage}
           className="my-4 mx-auto h-[50%] w-[50%]"
+          alt={"jest"}
+          width={300}
+          height={300}
         />
         <h2 className="text-xl font-bold mt-4">Referencias</h2>
         <a
@@ -304,6 +315,7 @@ const FaseControl = () => {
         >
           Sobre la Fase de Control de Calidad e Implementación
         </a>
+        </div>
       </div>
     </ContentPage>
   );

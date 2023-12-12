@@ -14,14 +14,14 @@ const PrincipalLayoutStructure = ({ children }: Props) => {
 
   return (
     <div className="flex flex-col w-full min-h-screen">
-      <nav className="bg-[#42457A] border-gray-200 w-full p-4 flex flex-row">
+      <div className="bg-[#383a69] w-full px-4 py-2 flex flex-row shadow-blue-950">
         <Image
           src={loguito}
           alt="Aqui va una imagen chida :D"
           className="w-1/6"
         />
         <div
-          className="flex flex-row w-full items-center justify-between"
+          className="flex flex-row w-full items-end justify-between"
           id="navbar-multi-level"
         >
           <ul className="flex flex-row font-medium p-4  border-gray-100 rounded-lg ">
@@ -30,8 +30,8 @@ const PrincipalLayoutStructure = ({ children }: Props) => {
             ))}
           </ul>
         </div>
-      </nav>
-      <main className="w-full h-full bg-[#F4F0ED]">{children}</main>
+      </div>
+      <div className="w-full h-full bg-[#F4F0ED]">{children}</div>
     </div>
   );
 };
