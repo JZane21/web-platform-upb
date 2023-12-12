@@ -22,18 +22,6 @@ export const NavbarOptions = [
   },
   //
   {
-    ref: "/objetivos",
-    text: "Objetivos",
-  },
-  {
-    ref: "/requisitos",
-    text: "Requisitos",
-  },
-  {
-    ref: "/estimacion-costos",
-    text: "Estimacion Costos",
-  },
-  {
     ref: "/sobre-nosotros",
     text: "Sobre Nosotros",
   },
